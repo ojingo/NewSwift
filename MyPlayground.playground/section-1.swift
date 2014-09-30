@@ -37,5 +37,61 @@ occupations["Jayne"] = "Secretary"
 
 println(occupations)
 
+let emptyArray = [String]()
+let emptyDictionary = Dictionary<String, Float>()
+
+shoppingList = []
+
+let individualScores = [72, 100, 101, 200, 23, 323]
+
+var teamScore = 0
+
+for score in individualScores {
+    if score > 50 {
+        
+        teamScore += 3
+            
+        }else{
+        
+        teamScore += 1
+        
+        }
+}
+
+teamScore
+
+
+var optionalString: String? = "Hello"
+
+optionalString == nil
+
+var optionalName: String? = "Boston"
+// optionalName = nil
+var greeting = "Hello!"
+
+
+if let name = optionalName {
+    greeting = "Hello, \(name)!"
+}
+
+greeting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
