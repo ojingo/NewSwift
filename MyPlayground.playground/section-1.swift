@@ -22,6 +22,19 @@ let oranges: Float = 5
 let appleSummary = "I have \(apples) apples!"
 let fruitSummary = "I have \(apples + oranges) pieces of fruit!"
 
+var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+
+shoppingList[1] = "bottle of water"
+
+var occupations = [
+
+    "Malcom": "Captain",
+    "Kaylee": "Mechanic",
+
+]
+
+occupations["Jayne"] = "Secretary"
+
 
 
 
