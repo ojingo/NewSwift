@@ -35,7 +35,7 @@ var occupations = [
 
 occupations["Jayne"] = "Secretary"
 
-
+println(occupations)
 
 
 
