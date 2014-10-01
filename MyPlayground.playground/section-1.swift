@@ -77,7 +77,24 @@ if let name = optionalName {
 greeting
 
 
+// vegetable suffixes
 
+let vegetable = "Red Pepper"
+
+switch vegetable {
+case "celery":
+    let vegetableComment = "Add some rasins and make ants on a log"
+    
+case "cucumber", "watercrest":
+    let vegetableComment = "that would make a good tea sammich"
+    
+case let x where x.hasSuffix("Pepper"):
+    let vegetableComment = "Is it a spicy \(x)?"
+    
+default:
+    let vegetableComment = "Everything tastes good in onion soup!"
+    
+}
 
 
 
