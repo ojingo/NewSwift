@@ -105,16 +105,21 @@ let interestingNumbers = [
 ]
 
 var largest = 0
+var whichKind: String? = nil
 
 for (kind, numbers) in interestingNumbers {
     for number in numbers {
         if number > largest {
             largest = number
+            whichKind = kind
         }
     }
 }
 
 largest
+whichKind
+
+
 
 
 
