@@ -180,19 +180,22 @@ func sumOf(numbers: Int...) -> Int {
 sumOf()
 sumOf(12, 12, 13, 15, -13, 0, 1232)
 
-func averageOf(numbers: Int...) -> Float {
+func averageOf(numbers: Int...) -> Float
+{
     var sum = 0
-    var numbersTotal = 0
+    let numbersTotal = numbers.count
     
-    for number in numbers {
+    for number in numbers
+    {
         sum += number
-        numbersTotal = numbers.count
     }
     
-    return Float(sum/numbersTotal)
+    return Float(sum) / Float(numbersTotal)
 }
 
 averageOf()
+
+averageOf(12, 14, 35, 100)
 
 
 
