@@ -167,6 +167,21 @@ func getGasPrices() -> (Double, Double, Double) {
 
 getGasPrices()
 
+// function taking in an array... right into the bung
+
+func sumOf(numbers: Int...) -> Int {
+    var sum = 0
+    for number in numbers {
+        sum += number
+    }
+    return sum
+}
+
+sumOf()
+sumOf(12, 12, 13, 15, -13, 0, 1232)
+
+
+
 
 
 
