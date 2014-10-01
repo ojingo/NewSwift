@@ -134,6 +134,14 @@ do {
 } while m < 100
 m
 
+// index in a loop with ...
+
+var firstForLoop = 0
+for i in 0..<3 {
+    firstForLoop += i
+}
+
+
 
 
 
