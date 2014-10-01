@@ -141,8 +141,31 @@ for i in 0..<3 {
     firstForLoop += i
 }
 
+firstForLoop
+
+var secondForLoop = 0
+for var i = 0; i < 3; ++i {
+    secondForLoop += 1
+}
+secondForLoop
+
+// functions and closures
+
+func greet(name: String, day: String) -> String {
+    return "Hello \(name), today is \(day)."
+}
+
+greet("TJ", "Monday")
+greet("Sidney", "Tuesday")
 
 
+// tuples
+
+func getGasPrices() -> (Double, Double, Double) {
+    return (3.59, 3.69, 3.79)
+}
+
+getGasPrices()
 
 
 
