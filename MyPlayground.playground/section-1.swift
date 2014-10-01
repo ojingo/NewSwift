@@ -214,6 +214,21 @@ func returnFifteen() -> Int
 
 returnFifteen()
 
+// first class function... ok this better be exciting man
+
+func makeIncrementer() -> (Int -> Int)
+{
+    func addOne(number: Int) -> Int
+    {
+        return 1 + number
+    }
+    return addOne
+}
+
+var increment = makeIncrementer()
+increment(7)
+
+
 
 
 
