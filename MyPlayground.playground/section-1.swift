@@ -231,7 +231,7 @@ increment(7)
 
 // function that takes a function
 
-func hasAnyMatches(list: Int[], condition: Int -> Bool) -> Bool
+func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool
 {
     for item in list
     {
@@ -251,6 +251,8 @@ func lessThanTen(number: Int) -> Bool
 var numbers = [20, 19, 7, 12]
 
 hasAnyMatches(numbers, lessThanTen)
+
+
 
 
 
