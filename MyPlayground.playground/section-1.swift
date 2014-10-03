@@ -259,6 +259,19 @@ hasAnyMatches(numbers, lessThanTen)
 hasAnyMatches(numbers, lessThanTwelve)
 
 
+// anonymous function or closure!?
+
+numbers.map({
+    
+    (number: Int) -> Int in
+    let result = 3 * number
+    return result
+    
+})
+
+
+
+
 
 
 
