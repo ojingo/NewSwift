@@ -248,9 +248,18 @@ func lessThanTen(number: Int) -> Bool
     return number < 10
 }
 
+func lessThanTwelve(number: Int) -> Bool
+{
+    return number < 12
+}
+
 var numbers = [20, 19, 7, 12]
 
 hasAnyMatches(numbers, lessThanTen)
+hasAnyMatches(numbers, lessThanTwelve)
+
+
+
 
 
 
