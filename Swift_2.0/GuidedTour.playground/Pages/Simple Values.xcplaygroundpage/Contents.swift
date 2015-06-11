@@ -16,6 +16,7 @@ var myVariable = 42
 myVariable = 50
 let myConstant = 42
 // myConstant = 44  NO! its a constant... you may not change it ;) 
+// test changes
 
 //: A constant or variable must have the same type as the value you want to assign to it. However, you don’t always have to write the type explicitly. Providing a value when you create a constant or variable lets the compiler infer its type. In the example above, the compiler infers that `myVariable` is an integer because its initial value is an integer.
 //:
